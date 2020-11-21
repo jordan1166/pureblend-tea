@@ -151,6 +151,18 @@ figcaption {
     background-color: black;
 }
 
+/* Footer */
+
+div.contact-info {
+    margin: 10px auto;
+    height: 200px;
+}
+
+footer h5.copyright {
+    margin-left: 20px;
+    text-align: left;
+}
+
 /* Navigation bar media queries */
 
 @media screen and (max-width: 1650px) {
