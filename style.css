@@ -92,12 +92,11 @@ div.title {
 
 .shop {
     margin: auto;
-    margin-top: 50px;
+    margin: 50px auto;
     width: 70%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /* align-items: center; */
 }
 
 .shop-items {
@@ -119,6 +118,37 @@ figcaption {
     width: 300px;
     height: 200px;
     margin: 10px;
+}
+
+/* Locations */
+
+.locations {
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: 500px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.locations h1 {
+    padding-top: 90px;
+}
+
+.addresses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.address {
+    margin-top: 15px;
+    margin: 40px;
+    width: 300px;
+    background-color: black;
 }
 
 /* Navigation bar media queries */
@@ -152,5 +182,14 @@ figcaption {
         background-image: none;
         align-items: flex-start;
         height: auto;
+    }
+}
+
+/* Locations media queries */
+
+@media screen and (max-width: 1663px) {
+    .locations {
+        height: 100%;
+        width: 100%;
     }
 }
