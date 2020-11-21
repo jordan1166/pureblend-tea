@@ -12,19 +12,19 @@
     <nav class="nav-bar">
         <div class="title">Pureblend Tea</div>
         <div class="links">
-            <div class="link-item">Mission</div>
-            <div class="link-item">Featured Tea</div>
-            <div class="link-item">Locations</div>
+            <a href="/#banner-items" class="link-item">Mission</a>
+            <a href="/#shop-items" class="link-item">Featured Tea</a>
+            <a href="/#locations" class="link-item">Locations</a>
         </div>
         <button class="material-icons" id="menu" onclick="showMenu()">menu</button>
     </nav>
     <div id="links-mobile">
-        <div class="link-item-mobile">Mission</div>
-        <div class="link-item-mobile">Featured Tea</div>
-        <div class="link-item-mobile">Locations</div>
+        <a href="/#banner-items" class="link-item-mobile" onclick="showMenu()">Mission</a>
+        <a href="/#shop-items" class="link-item-mobile" onclick="showMenu()">Featured Tea</a>
+        <a href="/#locations" class="link-item-mobile" onclick="showMenu()">Locations</a>
     </div>
     <div class="banner">
-        <div class="banner-items">
+        <div id="banner-items">
             <h2>Our Mission</h2>
             <h4>
                 Handpicked, Artisanlly Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea
@@ -32,7 +32,7 @@
         </div>
     </div>
     <div class="shop">
-        <section class="shop-items">
+        <section id="shop-items">
             <h2>Tea of the Month</h2>
             <h4>See what's popular</h4>
         </section>
@@ -59,7 +59,7 @@
             </figure>
         </section>
     </div>
-    <div class="locations">
+    <div id="locations">
         <h1>Locations</h1>
         <div class="addresses">
             <section class="address">
