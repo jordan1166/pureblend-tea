@@ -9,20 +9,22 @@
     <title>Pureblend Tea</title>
 </head>
 <body>
-    <nav class="nav-bar">
-        <div class="title">Pureblend Tea</div>
-        <div class="links">
-            <a href="/#banner-items" class="link-item">Mission</a>
-            <a href="/#shop-items" class="link-item">Featured Tea</a>
-            <a href="/#locations" class="link-item">Locations</a>
+    <header>
+        <nav class="nav-bar">
+            <div class="title">Pureblend Tea</div>
+            <div class="links">
+                <a href="/#banner-items" class="link-item">Mission</a>
+                <a href="/#shop-items" class="link-item">Featured Tea</a>
+                <a href="/#locations" class="link-item">Locations</a>
+            </div>
+            <button class="material-icons" id="menu" onclick="showMenu()">menu</button>
+        </nav>
+        <div id="links-mobile">
+            <a href="/#banner-items" class="link-item-mobile" onclick="showMenu()">Mission</a>
+            <a href="/#shop-items" class="link-item-mobile" onclick="showMenu()">Featured Tea</a>
+            <a href="/#locations" class="link-item-mobile" onclick="showMenu()">Locations</a>
         </div>
-        <button class="material-icons" id="menu" onclick="showMenu()">menu</button>
-    </nav>
-    <div id="links-mobile">
-        <a href="/#banner-items" class="link-item-mobile" onclick="showMenu()">Mission</a>
-        <a href="/#shop-items" class="link-item-mobile" onclick="showMenu()">Featured Tea</a>
-        <a href="/#locations" class="link-item-mobile" onclick="showMenu()">Locations</a>
-    </div>
+    </header>
     <div class="banner">
         <div id="banner-items">
             <h2>Our Mission</h2>
@@ -60,7 +62,7 @@
         </section>
     </div>
     <div id="locations">
-        <h1>Locations</h1>
+        <h2>Locations</h2>
         <div class="addresses">
             <section class="address">
                 <h3>Downtown</h3>
